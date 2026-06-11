@@ -1,6 +1,7 @@
 class Solution {
 public:
     bool searchMatrix(vector<vector<int>>& m, int x) {
+        // Approach 1: Binary Search on Flattened Array
           int row=m.size();
           int col=m[0].size();
           int i=0;
