@@ -1,6 +1,12 @@
 class Solution {
 public:
     double myPow(double x, int n) {
+
+
+        // Time Complexity: O(n)
+        // Space Complexity: O(n) for recursion stack
+        // Issue: Stack overflow for large n
+        
         if (n == 0) return 1.0;
         
         long long N = n;
