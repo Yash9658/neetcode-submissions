@@ -1,6 +1,9 @@
 class Solution {
 public:
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
+        // Time Complexity: O(log m + log n) = O(log(m × n))
+        // Space Complexity: O(1)
+        // two binary searches first on row and second on coloumn 
         int rows = matrix.size();
         int cols = matrix[0].size();
         
