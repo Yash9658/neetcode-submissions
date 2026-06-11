@@ -1,6 +1,11 @@
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
+
+        
+// Time Complexity: O(n²)
+
+// Space Complexity: O(min(n, 26))
         int n = s.length();
         int maxLen = 0;
         
