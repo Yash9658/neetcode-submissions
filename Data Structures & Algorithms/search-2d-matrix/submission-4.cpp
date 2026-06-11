@@ -1,6 +1,11 @@
 class Solution {
 public:
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
+
+        // Time Complexity: O(m × log n)
+        // Space Complexity: O(1)   
+        // in this we are eleminating the rows which have target is small from first ele and bigger from last element of a particular row
+        // the applying binary search to find the given element in the selected row
         int rows = matrix.size();
         int cols = matrix[0].size();
         
