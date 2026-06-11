@@ -1,6 +1,8 @@
 class Solution {
 public:
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
+        // Time Complexity: O(m + n)
+        // Space Complexity: O(1)
         int rows = matrix.size();
         int cols = matrix[0].size();
         
