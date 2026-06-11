@@ -2,6 +2,9 @@ class Solution {
 public:
     bool searchMatrix(vector<vector<int>>& m, int x) {
         // Approach 1: Binary Search on Flattened Array
+        // Time Complexity: O(log(m × n))
+        // Space Complexity: O(1)
+        
           int row=m.size();
           int col=m[0].size();
           int i=0;
